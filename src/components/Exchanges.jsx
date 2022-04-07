@@ -1,11 +1,10 @@
 import React from "react";
 import { useGetExchangesQuery } from "../services/cryptoExchagesApi";
-import { Col, Row, Typography, Avatar, Collapse } from "antd";
+import { Col, Row, Typography, Avatar } from "antd";
 import millify from "millify";
 import Loader from "./Loader";
 
 const { Text } = Typography;
-const { Panel } = Collapse;
 
 const Exchanges = () => {
   const { data: exchangesList, isFetching } = useGetExchangesQuery();

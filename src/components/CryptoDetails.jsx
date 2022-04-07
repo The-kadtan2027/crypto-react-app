@@ -8,9 +8,7 @@ import {
   DollarCircleOutlined,
   FundOutlined,
   ExclamationCircleOutlined,
-  StopOutlined,
   TrophyOutlined,
-  CheckOutlined,
   NumberOutlined,
   ThunderboltOutlined,
 } from "@ant-design/icons";
